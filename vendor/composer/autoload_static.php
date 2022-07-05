@@ -7,6 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit0c24e2149bc7c92e5238c2dec5ef704e
 {
     public static $prefixLengthsPsr4 = array (
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
+        'D' => 
+        array (
+            'DreamCommerce\\' => 14,
+        ),
         'A' => 
         array (
             'Automattic\\WooCommerce\\' => 23,
@@ -14,6 +22,14 @@ class ComposerStaticInit0c24e2149bc7c92e5238c2dec5ef704e
     );
 
     public static $prefixDirsPsr4 = array (
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'DreamCommerce\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dreamcommerce/shop-appstore-lib/src/DreamCommerce',
+        ),
         'Automattic\\WooCommerce\\' => 
         array (
             0 => __DIR__ . '/..' . '/automattic/woocommerce/src/WooCommerce',
